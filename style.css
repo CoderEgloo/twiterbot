@@ -74,8 +74,6 @@ body{
     border: none;
     margin-left: 2%;
     margin-top: 2%;
-    margin-bottom 2%;
-    margin-right:2%;
     font-size: 25px;
     font-family: Georgia;
     }
@@ -88,12 +86,11 @@ body{
     border-radius: 30px;
     height: 5%;
     width: 10.5%;
-    position: fixed;
+    position: flex;
     border: none;
     margin-left: 2%;
     margin-top: 2%;
     padding-left: 2%;
-    padding-right: 2%;
     font-size: 25px;
     font-family: Georgia;
     }

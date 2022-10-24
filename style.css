@@ -109,8 +109,8 @@ body{
     #contactbox #messageform {
     border-radius: 30px;
     height: 250px;
-    width: 625px;
-    position: fixed;
+    width: 26%;
+    position: flex;
     top: 500px;
     border: none;
     margin-left: 20px;

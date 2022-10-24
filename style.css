@@ -59,9 +59,9 @@ body{
     border-radius: 30px;
     border-width: 0px;
     height: 500px;
-    width: 700px;
-    position: fixed;
-    left: 450px;
+    width: 30%;
+    position: flex;
+    left: 35%;
     background-color: rgb(2, 64, 64);
     color: aliceblue;
     margin-top: 150px; 

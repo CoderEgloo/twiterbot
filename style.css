@@ -61,7 +61,7 @@ body{
     height: 500px;
     width: 30%;
     position: flex;
-    left: 35%;
+    margin-left: 35%;
     background-color: rgb(2, 64, 64);
     color: aliceblue;
     margin-top: 150px; 

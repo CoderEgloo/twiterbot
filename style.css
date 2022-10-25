@@ -66,7 +66,7 @@ body{
       margin-top: 7%; 
       display: block;
       }
-  #contactbox #emailform {
+      #contactbox #emailform {
       padding-bottom: 2%;
       width: 94%;
       position: static;
@@ -201,7 +201,12 @@ body{
         }
     }
 
-@media screen and (max-width: 768px) {
+
+
+
+
+
+  @media screen and (max-width: 768px) {
     #contactbox {
       border-width: 0%;
       height: 60%;
@@ -214,8 +219,3 @@ body{
       display: block;
       }
   }
-
-
-
-
-

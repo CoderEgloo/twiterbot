@@ -56,89 +56,92 @@ body{
     background-color: #444;
     }
     #contactbox {
-    border-radius: 30px;
-    border-width: 0px;
-    height: 60%;
-    width: 30%;
-    position: flex;
-    margin-left: 35%;
-    background-color: rgb(2, 64, 64);
-    color: aliceblue;
-    margin-top: 15%px; 
-    }
-#contactbox #emailform {
-    border-radius: 30px;
-    height: 5%;
-    width: 26%;
-    position: flex;
-    border: none;
-    margin-left: 2%;
-    margin-top: 2%;
-    font-size: 25px;
-    font-family: Georgia;
-    }
-    #contactbox input:hover, textarea:hover {
-    background-color: cyan;
-
-
-    }
-    #contactbox #nameform {
-    border-radius: 30px;
-    height: 5%;
-    width: 10.5%;
-    position: flex;
-    border: none;
-    margin-left: 2%;
-    margin-top: 2%;
-    padding-left: 2%;
-    font-size: 25px;
-    font-family: Georgia;
-    }
-    #contactbox #subjectform {
-    border-radius: 30px;
-    height: 5%;
-    width: 10.5%;
-    position: flex;
-    border: none;
-    margin-left: 2%;
-    margin-top: 2%;
-    padding-left: 2%;
-    font-size: 25px;
-    font-family: Georgia;
-    }
-    #contactbox #messageform {
-    border-radius: 30px;
-    height: 250px;
-    width: 26%;
-    position: flex;
-    top: 500px;
-    border: none;
-    margin-left: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 25px;
-    font-family: Georgia;
-    }
-
-    #contactbox #send{
-      border-radius: 30px;
-      background-color: rgb(65, 196, 142);
+      border-width: 0%;
+      height: 60%;
+      width: 40%;
+      position: relative;
+      margin-left: 30%;
+      background-color: rgb(2, 64, 64);
+      color: aliceblue;
+      margin-top: 7%; 
+      display: block;
+      }
+  #contactbox #emailform {
+      padding-bottom: 2%;
+      width: 94%;
+      position: static;
+      border: none;
+      margin-top: 4%;
       font-size: 25px;
       font-family: Georgia;
-      position: fixed;
-      height: 500px;
-      width: 175px;
-      top: 275px;
-      left: 1150px;
-      box-shadow: #444;
+      margin-left: 2%;
+      padding-top: 2%;
+      padding-left: 2%;
+      
+      
+      }
+      #contactbox input:hover, textarea:hover {
+      background-color: cyan;
+  
+  
+      }
+      #contactbox #nameform {
+      width: 94%;
+      position: static;
+      border: none;
+      margin-left: 2%;
+      margin-top: 2%;
+      padding-left: 2%;
+      padding-top: 2%;
+      font-size: 25px;
+      font-family: Georgia;
+      float: left;
+      padding-bottom: 2%;
+      }
+      #contactbox #subjectform {
+      padding-bottom: 2%;
+      width: 94%;
+      position: static;
+      border: none;
+      margin-left: 2%;
+      margin-top: 2%;
+      padding-left: 2%;
+      padding-top: 2%;
+      font-size: 25px;
+      font-family: Georgia;
+      
+      }
+      #contactbox #messageform {
+      padding-bottom: 2%;
+      width: 94%;
+      position: static;
+      border: none;
+      margin-left: 2%;
+      padding-top: 2%;
+      padding-left: 2%;
+      font-size: 25px;
+      font-family: Georgia;
+      margin-top: 2%;
+      }
+  
+      #contactbox #send{
+        border-radius: 30px;
+        background-color: rgb(65, 196, 142);
+        font-size: 25px;
+        font-family: Georgia;
+        position: static;
+        width: 75%;
+        margin-left: 12.5%;
+        box-shadow: #444;
+        margin-top: 2%;
+        margin-bottom: 2%;
+  
+      }
+      #contactbox #send:hover{
+        background-color: rgb(29, 248, 164);
+        transition: .3s;
+      }
 
-    }
-    #contactbox #send:hover{
-      background-color: rgb(29, 248, 164);
-      transition: .3s;
-    }
-
-   
     #title #intro{
         position: fixed;
     }
@@ -197,3 +200,12 @@ body{
             visibility: hidden;
         }
     }
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    
+  }

@@ -201,6 +201,19 @@ body{
         }
     }
 
+@media screen and (max-width: 768px) {
+    #contactbox {
+      border-width: 0%;
+      height: 60%;
+      width: 95%;
+      position: relative;
+      margin-left: 30%;
+      background-color: rgb(2, 64, 64);
+      color: aliceblue;
+      margin-top: 7%; 
+      display: block;
+      }
+  }
 
 
 

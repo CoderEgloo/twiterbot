@@ -220,20 +220,20 @@ body{
       }
         #contactbox #emailform {
         padding-left: 2%;
-        width: 94%;
+        width: 90%;
         }
         #contactbox #nameform {
           padding-left: 2%;
-          width: 95%;
+          width: 90%;
         }
         #contactbox #subjectform {
           padding-left: 2%;
-          width: 93%;
+          width: 90%;
         
         }
         #contactbox #messageform {
         padding-left: 2%;
-        width: 92%;
+        width: 90%;
         
         }
         #contactbox #send{
@@ -241,7 +241,7 @@ body{
     
         }
     #resume {
-      height: 100%;
+      height: 110%;
       width: 98%;
       margin-left: 1%;
     }   

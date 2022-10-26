@@ -206,7 +206,7 @@ body{
 
 
 
-    @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     #contactbox {
       border-width: 0%;
       height: 60%;
@@ -220,16 +220,20 @@ body{
       }
         #contactbox #emailform {
         padding-left: 2%;
+        width: 94%;
         }
         #contactbox #nameform {
           padding-left: 2%;
+          width: 95%;
         }
         #contactbox #subjectform {
           padding-left: 2%;
+          width: 93%;
         
         }
         #contactbox #messageform {
         padding-left: 2%;
+        width: 92%;
         
         }
         #contactbox #send{
@@ -237,7 +241,9 @@ body{
     
         }
     #resume {
-      height: fit-content;
+      height: 100%;
+      width: 98%;
+      margin-left: 1%;
     }   
 
   }

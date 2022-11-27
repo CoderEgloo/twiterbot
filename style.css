@@ -1,10 +1,20 @@
 body{
-    background-color: rgb(88, 81, 236);
+    background-color: #30475E;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
-   
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: green;
+
 }
+  
+h1 {
+  margin-left: 7.5%;
+}
+
 .sidebar {
     height: 100%;
     width: 0;
@@ -12,7 +22,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #222831;
     overflow-x: hidden;
     transition: .8s;
     padding-top: 40px;
@@ -31,7 +41,7 @@ body{
     
     }
     .sidebar a:hover {
-    color: #f1f1f1;
+    color: #F05454;
     font-size: 28px;
     cursor: pointer;
     }
@@ -43,32 +53,53 @@ body{
     margin-left: 50px;
     }
     .openbtn {
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
-    background-color: #111;
+    background-color: #222831;
     color: white;
     padding: 10px 15px;
     border: none;
     transition: .8s;
-    top: 0px;
+    position: fixed;
+    top: .75%;
+    left: .75%;
+    position: fixed;
+    z-index: 99;
+
     }
     .openbtn:hover {
     background-color: #444;
     }
+
+    #contactbox #contacttext {
+      
+      border-width: 0%;
+      height: 100%;
+      width: 66%;
+      position: absolute;
+      background-color: rgb(153, 53, 200);
+      color: aliceblue;
+      margin-top: -82.8%; 
+      display: block;
+      margin-left: 100%;
+      }
+
     #contactbox {
       border-width: 0%;
       height: 60%;
       width: 40%;
       position: relative;
-      margin-left: 30%;
+      margin-left: 17.5%;
       background-color: rgb(2, 64, 64);
       color: aliceblue;
       margin-top: 7%; 
       display: block;
       }
       #contactbox #emailform {
+      background-color: #DDDDDD;
       padding-bottom: 2%;
-      width: 94%;
+      width:94%;
+      margin-right: 2%;
       position: static;
       border: none;
       margin-top: 4%;
@@ -86,6 +117,7 @@ body{
   
       }
       #contactbox #nameform {
+      background-color: #DDDDDD;
       width: 94%;
       position: static;
       border: none;
@@ -99,6 +131,7 @@ body{
       padding-bottom: 2%;
       }
       #contactbox #subjectform {
+      background-color: #DDDDDD;    
       padding-bottom: 2%;
       width: 94%;
       position: static;
@@ -112,6 +145,7 @@ body{
       
       }
       #contactbox #messageform {
+      background-color: #DDDDDD;
       padding-bottom: 2%;
       width: 94%;
       position: static;
@@ -142,41 +176,72 @@ body{
         transition: .3s;
       }
 
-    #title #intro{
-        position: fixed;
-    }
-    #title #myName{
-    position:fixed;
+    
+    #title {
+    position:absolute;
     top: 150px;
     left: 250px;
     font-size: 150px;
     padding: 10px;
+    width: 50%;
     }
-    #title #myName {
-  background:
-    linear-gradient(
-      to right,
-      rgba(100, 200, 200, 1),
-      rgb(42, 82, 202)
-    ),
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 180, 1),
-      rgba(0, 100, 200, 1)
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+
+    #title .blinking-cursor {
+      font-size: 100px;
+      font-weight:900;
+      -webkit-animation: 1s blink step-end infinite;
+      -moz-animation: 1s blink step-end infinite;
+      -ms-animation: 1s blink step-end infinite;
+      -o-animation: 1s blink step-end infinite;
+      animation: 1s blink step-end infinite;
     }
-    #title #myName:hover {
-    color:blue;
-    cursor:default;
-    transition: .3s;
-    font-size: 153px;
-    background-size: 0 3px, 100% 3px;
+    
+    @keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: aliceblue;
+      }
     }
+    
+    @-moz-keyframes blink {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: aliceblue;
+      }
+    }
+    
+    @-webkit-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: aliceblue;
+      }
+    }
+    
+    @-ms-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: aliceblue;
+      }
+    }
+    
+    @-o-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: aliceblue;
+      }
+    }
+
+    
 
     .loader-wrapper{
         width: 100%;
@@ -201,12 +266,82 @@ body{
         }
     }
 
+    main {
+    }
+    #introparagraph {
+      color: #111;
+      background-color: beige;
+      position: absolute;
+      top: 100%;
+      width: 50%;
+      height: 100%;
+      font-size: 30px;
+      padding-left: 3%;
+      padding-top: 3%;
+      margin-left: 0%;
+    }
+
+    .container {
+      position:absolute;
+      top: 225vh;
+      width: 100%;
+      height: 10%;
+      margin-right: calc();
+      z-index: 9999;
+    }
+
+    .container .box {
+      position:relative;
+      width: calc(26%);
+      height: calc();
+      float:left;
+      margin: 3.66%;
+      background-color: lightseagreen;
+      padding: 5%;
+      box-sizing: border-box;
+      overflow: hidden;
+      color: yellow;
+      border-radius: 20px;
+      
+
+    }
+
+    #banner {
+      position: absolute;
+      top: 210vh;
+      width: 94%;
+      margin-left: 1%;
+      background-color: sandybrown;
+      height: 7%;
+      font-size: 45px;
+      text-align: center;
+      padding: 2%
+
+    }
+
+    #canvas3d {
+      margin-left: 60%;
+      margin-top: 5vh;
+    }
+
+    #name3d {
+      margin-left: 2.5vw;
+      
+    }
+
+    
 
 
 
 
+  @media screen and (max-width: 768px) {
+    #canvas3d {
+      display:none;
+    }
 
- @media screen and (max-width: 768px) {
+    #introparagraph {
+      width: 100%;
+    }
     #contactbox {
       border-width: 0%;
       height: 60%;
@@ -215,7 +350,7 @@ body{
       margin-left: 2.5%;
       background-color: rgb(2, 64, 64);
       color: aliceblue;
-      margin-top: 5%; 
+      margin-top: 7%; 
       display: block;
       }
         #contactbox #emailform {
@@ -241,7 +376,7 @@ body{
     
         }
     #resume {
-      height: 110%;
+      
       width: 98%;
       margin-left: 1%;
     }   
